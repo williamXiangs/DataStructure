@@ -10,22 +10,6 @@ public class Main {
 
         stringArray.remove(0);
         System.out.println(stringArray.toString());
-        stringArray.remove(0);
-        System.out.println(stringArray.toString());
-        stringArray.remove(0);
-        System.out.println(stringArray.toString());
-        stringArray.remove(0);
-        System.out.println(stringArray.toString());
-        stringArray.remove(0);
-        System.out.println(stringArray.toString());
-        stringArray.remove(0);
-        System.out.println(stringArray.toString());
-        stringArray.remove(0);
-        System.out.println(stringArray.toString());
-        stringArray.remove(0);
-        System.out.println(stringArray.toString());
-
-        System.out.println(stringArray.toString());
 
     }
 }
