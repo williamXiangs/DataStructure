@@ -1,3 +1,5 @@
+package array;
+
 public class Array<E> {
     /**
      * 数组大小
@@ -33,6 +35,20 @@ public class Array<E> {
             throw new IllegalArgumentException("get fail,Require index >= 0 and index < size");
 
         return data[index];
+    }
+
+    /**
+     * 获取数组中最后一个元素
+     */
+    public E getLast(){
+        return get(size - 1);
+    }
+
+    /**
+     * 获取数组中第一个元素
+     */
+    public E getFirst(){
+        return get(0);
     }
 
     /**
