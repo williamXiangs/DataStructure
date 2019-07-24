@@ -77,6 +77,10 @@ public class Array<E> {
         return data.length;
     }
 
+    public boolean isEmpty(){
+        return getSize() == 0 ? true : false;
+    }
+
     /**
      * 在数组第一个位置添加一个元素，其他元素依次向后移动
      * @param e 需要添加的元素
@@ -176,7 +180,7 @@ public class Array<E> {
 
     /**
      * 对数组大小进行赋值
-     * @param int 新的容量大小
+     * @param newCapacity 新的容量大小
      * @return 数组新的容量大小
      */
     private int resize(int newCapacity){
